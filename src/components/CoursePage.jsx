@@ -30,7 +30,7 @@ const CoursePage = () => {
                         <img
                             src={courseData.image ? courseData.image : white}
                             alt={courseData.title}
-                            className="w-full h-[480px] sm:h-full object-cover rounded-xl"
+                            className="w-full min-h-[450px] sm:h-full object-cover rounded-xl"
                         />
                     </div>
                     <div className="absolute inset-0 flex flex-col md:gap-5 items-center justify-start mt-0 sm:mt-12 md:mt-24 p-5 bg-gradient-to-t rounded-xl to-transparent text-white">

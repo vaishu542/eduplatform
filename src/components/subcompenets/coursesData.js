@@ -1,5 +1,4 @@
 
-
 export const coursesData = {
     1: {
         title: "Certificate Course in Structured Query Language using MySQL",
